@@ -1,6 +1,6 @@
 # Produtora-Dublagem
 ## Detalhes importantes sobre o projeto
-A aplicação foi desenvolvida na linguagem Java 8 e pode ser executada em qualquer sistema operacional com o Java 8 instalado. A base de dados foi construída originalmente utilizando-se o SGBD Oracle utilizando um servidor da usp com scripts SQL, contudo buscando preservar os dados do servidor da usp o integrante #EwertonPSA repassou a base de dados para o SGBD Postgresql executando a aplicação no localhost. 
+A aplicação foi desenvolvida na linguagem Java 8 e pode ser executada em qualquer sistema operacional com o Java 8 instalado. A base de dados foi construída originalmente utilizando-se o SGBD Oracle utilizando um servidor da usp com scripts SQL, contudo buscando preservar os dados do servidor da usp o integrante @EwertonPSA repassou a base de dados para o SGBD Postgresql executando a aplicação no localhost. 
 
 ## Descrição do projeto
 A aplicação foi desenvolvida para gerenciar o sistema de dublagem de uma produtora de anime. O sistema não se encontra totalmente completo devido a complexidade e o curto período de tempo que tivemos para o seu desenvolvimento, contudo a interface principal do software e algumas funcionalidades já funcionam no sistema (como busca de dubladores e detalhes de sessões de gravações).
@@ -16,5 +16,9 @@ Todas detalhes do projeto foram incluidos no [pdf](https://github.com/EwertonPSA
 
 ## Detalhes de execução
 Tendo o banco de dados configurado, a execução desta aplicação pode ser feita a partir do executável App.jar .
-Atualmente o banco de dados Postgresql precisa ser configurado em um servidor local, com senha "postgres" e banco de dados chamado "anime_produtora". O banco de dado pode ser totalmente criado/restaurado a partir do backup [backup_baseDeDados_anime_produtora.sql](https://github.com/EwertonPSA/Produtora-Dublagem/blob/master/backup_baseDeDados_anime_produtora.sql) fornecido nesse repositorio.  
+Atualmente o banco de dados Postgresql precisa ser configurado em um servidor local, com senha "postgres" e banco de dados chamado "anime_produtora". O banco de dado pode ser totalmente criado/restaurado a partir do backup [backup_baseDeDados_anime_produtora.sql](https://github.com/EwertonPSA/Produtora-Dublagem/blob/master/backup_baseDeDados_anime_produtora.sql) fornecido nesse repositorio. 
 
+<img src="https://raw.githubusercontent.com/EwertonPSA/Produtora-Dublagem/master/img/1.png" width="600" height="400" />
+<img src="https://raw.githubusercontent.com/EwertonPSA/Produtora-Dublagem/master/img/2.png" width="600" height="400" />
+<img src="https://raw.githubusercontent.com/EwertonPSA/Produtora-Dublagem/master/img/3.png" width="600" height="400" />
+<img src="https://raw.githubusercontent.com/EwertonPSA/Produtora-Dublagem/master/img/4.png" width="600" height="400" />
