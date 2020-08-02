@@ -1,9 +1,9 @@
 # Produtora-Dublagem
 ## Detalhes importantes sobre o projeto
-A aplicação foi desenvolvida na linguagem Java 8 e pode ser executada em qualquer sistema operacional com o Java 8 instalado. A base de dados foi construída originalmente utilizando-se o SGBD Oracle utilizando um servidor da usp com scripts SQL, contudo buscando preservar os dados do servidor da usp o integrante @EwertonPSA repassou a base de dados para o SGBD Postgresql executando a aplicação no localhost. 
+A aplicação foi desenvolvida na linguagem Java 8 e pode ser executada em qualquer sistema operacional com o Java 8 instalado. A base de dados foi construída originalmente utilizando-se o SGBD Oracle utilizando um servidor da usp com scripts SQL, contudo buscando preservar os dados do servidor da usp o integrante @EwertonPSA repassou a base de dados para o SGBD Postgresql executando a aplicação no localhost. As [DML](https://github.com/EwertonPSA/Produtora-Dublagem/blob/master/Dados_Produtora.sql) e [DDL](https://github.com/EwertonPSA/Produtora-Dublagem/blob/master/Esquema_Produtora.sql) incluidas na base de dados postgresql foram incluidas no repositório.
 
 ## Descrição do projeto
-A aplicação foi desenvolvida para gerenciar o sistema de dublagem de uma produtora de anime. O sistema não se encontra totalmente completo devido a complexidade e o curto período de tempo que tivemos para o seu desenvolvimento, contudo a interface principal do software e algumas funcionalidades já funcionam no sistema (como busca de dubladores e detalhes de sessões de gravações).
+A aplicação foi desenvolvida para gerenciar o sistema de dublagem de uma produtora de anime. O sistema não se encontra totalmente completo devido a complexidade e o curto período de tempo que tivemos para o seu desenvolvimento, contudo a interface principal do software e algumas funcionalidades do sistema já funcionam (como busca de dubladores e detalhes de sessões de gravações).
 
 ###  Desenvolvimento do projeto
 O projeto foi desenvolvido para a disciplina SCC0240 Bases de Dados-USP utilizando SGDB Oracle e envolveram 3 partes: 
