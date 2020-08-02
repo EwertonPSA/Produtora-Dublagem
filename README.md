@@ -19,7 +19,7 @@ Tendo o banco de dados configurado, a execução desta aplicação pode ser feit
 Atualmente o banco de dados Postgresql precisa ser configurado em um servidor local, com senha "postgres" e banco de dados chamado "anime_produtora". O banco de dado pode ser totalmente criado/restaurado a partir do backup [backup_baseDeDados_anime_produtora.sql](https://github.com/EwertonPSA/Produtora-Dublagem/blob/master/backup_baseDeDados_anime_produtora.sql) fornecido nesse repositorio. 
 
 ## Observação
-Para rodar a aplicação utilizando java é necessário incluir o [JDBC Driver](https://jdbc.postgresql.org/download.html) nas bibliotecas do projeto.
+O programa foi desenvolvido na IDE Eclipse e para rodar aplicação na IDE é necessário incluir a biblioteca [JDBC Driver](https://jdbc.postgresql.org/download.html) no projeto.
 
 ## Aplicação
 <img src="https://raw.githubusercontent.com/EwertonPSA/Produtora-Dublagem/master/img/1.png" width="640" height="400" />
