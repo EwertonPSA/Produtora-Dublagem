@@ -15,7 +15,7 @@ O projeto foi desenvolvido para a disciplina SCC0240 Bases de Dados-USP utilizan
 Todas detalhes do projeto foram incluidos no [pdf](https://github.com/EwertonPSA/Produtora-Dublagem/blob/master/Banco%20de%20Dados%20-%20P3.pdf) desse repositório. 
 
 ## Detalhes de execução
-Tendo o banco de dados configurado, a execução desta aplicação pode ser feita a partir do executável App.jar .
+Tendo o banco de dados configurado, a execução desta aplicação pode ser feita a partir do executável [App.jar](https://github.com/EwertonPSA/Produtora-Dublagem/blob/master/App.jar) .
 Atualmente o banco de dados Postgresql precisa ser configurado em um servidor local, com senha "postgres" e banco de dados chamado "anime_produtora". O banco de dado pode ser totalmente criado/restaurado a partir do backup [backup_baseDeDados_anime_produtora.sql](https://github.com/EwertonPSA/Produtora-Dublagem/blob/master/backup_baseDeDados_anime_produtora.sql) fornecido nesse repositorio. 
 
 ## Observação
