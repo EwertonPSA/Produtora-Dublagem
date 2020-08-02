@@ -18,7 +18,7 @@ Todas detalhes do projeto foram incluidos no [pdf](https://github.com/EwertonPSA
 Tendo o banco de dados configurado, a execução desta aplicação pode ser feita a partir do executável App.jar .
 Atualmente o banco de dados Postgresql precisa ser configurado em um servidor local, com senha "postgres" e banco de dados chamado "anime_produtora". O banco de dado pode ser totalmente criado/restaurado a partir do backup [backup_baseDeDados_anime_produtora.sql](https://github.com/EwertonPSA/Produtora-Dublagem/blob/master/backup_baseDeDados_anime_produtora.sql) fornecido nesse repositorio. 
 
-<img src="https://raw.githubusercontent.com/EwertonPSA/Produtora-Dublagem/master/img/1.png" width="600" height="400" />
-<img src="https://raw.githubusercontent.com/EwertonPSA/Produtora-Dublagem/master/img/2.png" width="600" height="400" />
-<img src="https://raw.githubusercontent.com/EwertonPSA/Produtora-Dublagem/master/img/3.png" width="600" height="400" />
-<img src="https://raw.githubusercontent.com/EwertonPSA/Produtora-Dublagem/master/img/4.png" width="600" height="400" />
+<img src="https://raw.githubusercontent.com/EwertonPSA/Produtora-Dublagem/master/img/1.png" width="640" height="400" />
+<img src="https://raw.githubusercontent.com/EwertonPSA/Produtora-Dublagem/master/img/2.png" width="640" height="400" />
+<img src="https://raw.githubusercontent.com/EwertonPSA/Produtora-Dublagem/master/img/3.png" width="640" height="400" />
+<img src="https://raw.githubusercontent.com/EwertonPSA/Produtora-Dublagem/master/img/4.png" width="640" height="400" />
