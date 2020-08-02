@@ -2,8 +2,11 @@
 
 ## Integrantes do Projeto
 Ewerton Patrick Silva do Amaral nºUSP: 10346975
+
 Lucas Nobuyuki Takahashi nºUSP: 10295670
+
 Marcelo Kiochi Hatanaka nºUSP: 10295645
+
 Rodrigo Mendes Andrade nºUSP: 10262721
 
 ## Detalhes importantes sobre o projeto
