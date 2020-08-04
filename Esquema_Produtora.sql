@@ -8,7 +8,7 @@ $$ LANGUAGE plpgSQL;
 CREATE FUNCTION N_DIGIT(n_digitos integer, valor integer)
 RETURNS boolean as $$
 BEGIN
-	RETURN (n_digitos::text) <= valor;
+	RETURN length(n_digitos::text) <= valor;
 END;
 $$ LANGUAGE plpgsql;
 
