@@ -4,8 +4,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**
- * Essa Classe foi feita para gerar uma conex�o e armazenar ela e pasar ela 
- * para outras classes usarem ela
+ * Essa Classe foi feita para gerar uma conexao, armazenar e passar
+ * para outras classes usarem
  */
 public class Conector {
 	protected static String conexaoLocal = null;
@@ -13,15 +13,14 @@ public class Conector {
 	
 	public static void connection() {
 		try {
-			conector = DriverManager.getConnection("jdbc:postgresql://localhost:5432/anime_produtora");
+			conector = DriverManager.getConnection("jdbc:postgresql://localhost:5432/anime_produtora", "postgres", "postgres");
 		} catch (SQLException e) {
 			throw new RuntimeException("Falha ao tentar conectar no servidor");	
 		}
 	}
 	
-	/* Na primeira conexao do banco eh feito duas tentativas de conexao
-	 * Uma dentro da rede USP e outra fora, aquele que der certo eh mapeado para que agilize o processo
-	 * De conexao ao banco de dados*/
+	/* Na primeira conexao do banco eh feito uma conexao
+	 * Verificando primeiro se o OJDBC se encontra no projeto*/
 	public static void FirstConnection()  throws RuntimeException{
 		if(conector == null) {
 			try {/*jar OJDBC eh necessario para fazer conexao ao banco*/
@@ -33,7 +32,7 @@ public class Conector {
 			try {/*Conexao fora da rede usp*/
 				conector = DriverManager.getConnection("jdbc:postgresql://localhost:5432/anime_produtora", "postgres", "postgres");
 			} catch (SQLException e) {
-				throw new RuntimeException("Falha ao conectar no servidor, checar senha do banco de dados postgres!");	
+				throw new RuntimeException("Falha ao conectar no servidor, checar informacoes do banco de dados postgres!");	
 			}
 		}
 	}
