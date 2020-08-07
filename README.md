@@ -28,5 +28,3 @@ O programa foi desenvolvido na IDE Eclipse e para rodar aplicação na IDE é ne
 ## Aplicação
 <img src="https://raw.githubusercontent.com/EwertonPSA/Produtora-Dublagem/master/img/1.png" width="640" height="400" />
 <img src="https://raw.githubusercontent.com/EwertonPSA/Produtora-Dublagem/master/img/2.png" width="640" height="400" />
-<img src="https://raw.githubusercontent.com/EwertonPSA/Produtora-Dublagem/master/img/3.png" width="640" height="400" />
-<img src="https://raw.githubusercontent.com/EwertonPSA/Produtora-Dublagem/master/img/4.png" width="640" height="400" />
