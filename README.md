@@ -6,7 +6,7 @@
 ## Detalhes importantes do projeto
 A aplicação foi desenvolvida na linguagem Java 8 e pode ser executada em qualquer sistema operacional com o Java 8 instalado. A base de dados foi construída originalmente utilizando-se o SGBD Oracle em um servidor da usp com scripts SQL, contudo buscando preservar os dados do servidor da usp o integrante [EwertonPSA](https://github.com/EwertonPSA) repassou a base de dados para o SGBD Postgresql executando a aplicação no localhost. As [DML (arquivo Dados_Produtora.sql)](https://github.com/EwertonPSA/Produtora-Dublagem/blob/master/Dados_Produtora.sql) e [DDL(arquivo Esquema_Produtora.sql)](https://github.com/EwertonPSA/Produtora-Dublagem/blob/master/Esquema_Produtora.sql) incluidas na base de dados postgresql se encontram no repositório. 
 
-Foi incluido um docker-composer para rodar o postgres com todas inforamções configuradas e com todas as informações nas bases de dados, sendo necessário apenas executá-lo e rodar a aplicação.
+Foi incluido um docker-composer para rodar o postgres com todas configuradas do postgresql e com as informações da base de dados, sendo necessário apenas executá-lo e rodar a aplicação.
 
 ## Descrição do projeto
 A aplicação foi desenvolvida para gerenciar o sistema de dublagem de uma produtora de anime. O sistema não se encontra totalmente completo devido a complexidade e o curto período de tempo que tivemos para o seu desenvolvimento, contudo a interface principal do software e algumas funcionalidades do sistema já funcionam (como busca de dubladores e detalhes de sessões de gravações)
