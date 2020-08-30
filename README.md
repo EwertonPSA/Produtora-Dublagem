@@ -42,7 +42,7 @@ acesse a pasta raiz do projeto e execute no terminal:
 docker build -t image-produtora .
 docker run -p 8089:5432 -d --rm --name container-produtora image-produtora
 docker exec -i container-produtora psql -U postgres anime_produtora < Esquema_Produtora.sql
-docker exec -i container-produtora psql -U postgres anime_produtora < Dados_produtora.sql
+docker exec -i container-produtora psql -U postgres anime_produtora < Dados_Produtora.sql
 ```
 Em seguida, rode a aplicação com o comando no terminal:
 ```
