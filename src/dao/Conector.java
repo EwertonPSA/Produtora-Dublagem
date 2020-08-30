@@ -13,7 +13,7 @@ public class Conector {
 	
 	public static void connection() {
 		try {
-			conector = DriverManager.getConnection("jdbc:postgresql://localhost:5432/anime_produtora", "postgres", "postgres");
+			conector = DriverManager.getConnection("jdbc:postgresql://0.0.0.0:8089/anime_produtora", "postgres", "postgres");
 		} catch (SQLException e) {
 			throw new RuntimeException("Falha ao tentar conectar no servidor");	
 		}
@@ -30,7 +30,7 @@ public class Conector {
 			}
 			
 			try {/*Conexao fora da rede usp*/
-				conector = DriverManager.getConnection("jdbc:postgresql://localhost:5432/anime_produtora", "postgres", "postgres");
+				conector = DriverManager.getConnection("jdbc:postgresql://0.0.0.0:8089/anime_produtora", "postgres", "postgres");
 			} catch (SQLException e) {
 				throw new RuntimeException("Falha ao conectar no servidor, checar informacoes do banco de dados postgres!");	
 			}

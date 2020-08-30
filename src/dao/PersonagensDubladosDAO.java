@@ -41,7 +41,7 @@ public class PersonagensDubladosDAO {
 				resultConsulta.add(infoBanco);
 			}
 		}catch(SQLException e) {
-			throw new RuntimeException("Erro de conexao no banco1");
+			throw new RuntimeException("Erro de conexao no banco");
 		}finally {
 			try {
 				Conector.close();
