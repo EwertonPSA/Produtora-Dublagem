@@ -2,11 +2,8 @@ version: '3.1'
 
 services:
   db:
+    build: . #busca o Dockerfile
     container_name: container-produtora
-    image: postgres
     restart: always
-    environment:
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: anime_produtora
     ports:
       - "8089:5432"
