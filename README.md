@@ -23,14 +23,31 @@ O projeto foi desenvolvido para a disciplina SCC0240 Bases de Dados-USP utilizan
 Todas detalhes do projeto foram incluidos no [pdf](https://github.com/EwertonPSA/Produtora-Dublagem/blob/master/Banco%20de%20Dados%20-%20P3.pdf) desse repositório. 
 
 ## Como rodar
+
+### Usando o docker-compose
 acesse a pasta raiz do projeto e execute no terminal:
 ```
-sudo docker-compose up -d
+docker-compose up -d
+docker exec -i container-produtora psql -U postgres anime_produtora < Esquema_Produtora.sql
+docker exec -i container-produtora psql -U postgres anime_produtora < Dados_Produtora.sql
 ```
 Em seguida, rode a aplicação com o comando no terminal:
 ```
 java -jar App.jar
 ```
+
+### Usando imagens
+```
+docker build -t image-produtora .
+docker run -p 8089:5432 -d --rm --name container-produtora image-produtora
+docker exec -i container-produtora psql -U postgres anime_produtora < Esquema_Produtora.sql
+docker exec -i container-produtora psql -U postgres anime_produtora < Dados_produtora.sql
+```
+Em seguida, rode a aplicação com o comando no terminal:
+```
+java -jar App.jar
+```
+
 ## Observação
 O programa foi desenvolvido na IDE Eclipse e para rodar aplicação na IDE é necessário incluir a biblioteca [JDBC Driver](https://jdbc.postgresql.org/download.html) no projeto.
 
