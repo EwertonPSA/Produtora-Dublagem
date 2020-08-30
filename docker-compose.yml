@@ -2,10 +2,11 @@ version: '3.1'
 
 services:
   db:
+    container_name: container-produtora
     image: postgres
     restart: always
     environment:
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: anime_produtora
-    volumes:
-      - ./database_in_docker:/var/lib/postgresql/data
+    ports:
+      - "8089:5432"
