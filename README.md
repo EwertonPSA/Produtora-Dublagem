@@ -37,6 +37,7 @@ java -jar App.jar
 ```
 
 ### Usando imagens
+acesse a pasta raiz do projeto e execute no terminal:
 ```
 docker build -t image-produtora .
 docker run -p 8089:5432 -d --rm --name container-produtora image-produtora
